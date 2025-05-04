@@ -45,7 +45,7 @@ export default function VideoDownloader() {
 
       // Send POST request to your backend
       const response = await fetch(
-        "https://vid-downloadbackend.ibrahimdev.cloud/",
+        "https://vid-downloadbackend.ibrahimdev.cloud/download",
         {
           method: "POST",
           body: formData,
